@@ -1,0 +1,70 @@
+body {
+        font-family: "Figtree";
+        display: grid;
+        place-items: center;
+        background-color: rgb(247, 204, 65);
+    }
+
+    .box {
+        width: 350px;
+        height: 475px;
+        border: 1px solid black;
+        border-radius: 17px;
+        background-color: white;
+        box-shadow: 9px 9px 4px 0;
+    }
+
+    .box-image-class {
+        width: 320px;
+        height: 150px;
+        border-radius: 11px;
+    }
+
+    .box-image {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    p {
+        margin-left: 16px;
+    }
+
+    .smallbox{
+        width: 90px;
+        height: 30px;
+        background-color: rgb(247, 204, 65);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .smallbox, .main-topic, .author-p{
+        font-weight: bold;
+    }
+
+    .main-topic {
+        font-size: 23px;
+    }
+
+    .paragraph {
+        line-height: 1.5;
+        color: #525151;
+    }
+
+    .image-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .author {
+        display: flex;
+        margin-left: 15px;
+    }
+
+    .author-p {
+        margin-left: 10px;
+    }
